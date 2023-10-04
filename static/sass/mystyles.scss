@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+// Set your brand colors
+$white: #ffffff;
+$light-green: #2a9d8f;
+$light-blue: #f4a261;
+$bright-green: #e76f51;
+$dark-green: #264653;
+
+// Update Bulma's global variables
+// $family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $dark-green;
+$subtitle-color: $light-blue;
+$primary: $white;
+$link: $light-green;
+$title-color: $bright-green;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: #264653;
+$box-background-color: #ffffff;
+
+@media screen and (min-width: 769px) {
+    .modal-card,
+    .modal-content {
+      margin: 0 auto;
+      max-height: calc(100vh - 40px);
+      max-width: 1024px;
+      width: auto;
+    }
+  }
+
+  a[target="_blank"]:not(.img):after {
+    font-family: "FontAwesome";
+    content: " \f35d";
+    position: relative;
+    top: -5px;
+    font-size: .75rem;
+  }
+
+  a[data-target]:after {
+    font-family: "Font Awesome 5 Free";
+    content: " \f27a";
+    position: relative;
+    top: -5px;
+    font-size: .75rem;
+  }
+
+@import "../mybulma/bulma.sass";

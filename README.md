@@ -1,2 +1,2 @@
 # seventh
-2023 Seveneth Grade Portfolio for Jonah Gann
+2023 Seventh Grade Portfolio for Jonah Gann
